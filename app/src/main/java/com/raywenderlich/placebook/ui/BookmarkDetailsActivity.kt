@@ -23,7 +23,7 @@ import kotlinx.android.synthetic.main.activity_bookmark_details.toolbar
 import kotlinx.android.synthetic.main.main_view_maps.*
 import java.io.File
 import java.net.URLEncoder
-
+//Main class for bookmark
 class BookmarkDetailsActivity : AppCompatActivity(),
         PhotoOptionDialogFragment.PhotoOptionDialogListener {
     private val bookmarkDetailsViewModel by viewModels<BookmarkDetailsViewModel>()
